@@ -5,13 +5,6 @@
 /// @DnDArgument : "op" "3"
 if(global.playerCurrentHealth <= 0)
 {
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 0D50B0F3
-	/// @DnDParent : 5CCEA09D
-	/// @DnDArgument : "msg" ""oh no i'm going to die""
-	show_debug_message(string("oh no i'm going to die"));
-
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 772AE605
@@ -48,14 +41,6 @@ if(dashTimeCounter > global.playerDashDuration == 1)
 	/// @DnDHash : 4D104B17
 	/// @DnDParent : 02C51BEA
 	speed = 0;
-
-	/// @DnDAction : YoYo Games.Common.Set_Global
-	/// @DnDVersion : 1
-	/// @DnDHash : 1E59F6DD
-	/// @DnDParent : 02C51BEA
-	/// @DnDArgument : "value" "1"
-	/// @DnDArgument : "var" "global.canPlayerBeDamaged"
-	global.canPlayerBeDamaged = 1;
 }
 
 /// @DnDAction : YoYo Games.Common.Variable

@@ -21,6 +21,20 @@ global.playerDirection = 1;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
+/// @DnDHash : 3992275A
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "var" "playerDirectionX"
+global.playerDirectionX = 1;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 2396103D
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "var" "playerDirectionY"
+global.playerDirectionY = 1;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
 /// @DnDHash : 7866B7FF
 /// @DnDArgument : "var" "attackDirection"
 global.attackDirection = 0;

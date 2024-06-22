@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Slash",
-    "path":"sprites/spr_Slash/spr_Slash.yy",
+    "name":"spr_Arrows",
+    "path":"sprites/spr_Arrows/spr_Arrows.yy",
   },
   "spriteMaskId":null,
   "visible":true,
