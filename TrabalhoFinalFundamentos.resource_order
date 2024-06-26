@@ -29,6 +29,7 @@
     {"name":"obj_Slash","order":3,"path":"objects/obj_Slash/obj_Slash.yy",},
     {"name":"obj_VariablesManager","order":2,"path":"objects/obj_VariablesManager/obj_VariablesManager.yy",},
     {"name":"obj_Wall","order":1,"path":"objects/obj_Wall/obj_Wall.yy",},
+    {"name":"obj_ScreenShake","order":12,"path":"objects/obj_ScreenShake/obj_ScreenShake.yy",},
     {"name":"spr_Arrows","order":4,"path":"sprites/spr_Arrows/spr_Arrows.yy",},
     {"name":"spr_Bomb","order":11,"path":"sprites/spr_Bomb/spr_Bomb.yy",},
     {"name":"spr_Enemy","order":2,"path":"sprites/spr_Enemy/spr_Enemy.yy",},

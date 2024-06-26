@@ -1,6 +1,11 @@
+/// @DnDAction : YoYo Games.Drawing.Draw_Self
+/// @DnDVersion : 1
+/// @DnDHash : 36264617
+draw_self();
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
 /// @DnDVersion : 1
-/// @DnDHash : 7960F268
+/// @DnDHash : 6A318601
 /// @DnDArgument : "x1" "-50"
 /// @DnDArgument : "x1_relative" "1"
 /// @DnDArgument : "y1" "-60"

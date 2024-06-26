@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_HealPotionCollectable",
+  "%Name":"obj_ScreenShake",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_HealPotionCollectable",
+  "name":"obj_ScreenShake",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_HealPotion",
-    "path":"sprites/spr_HealPotion/spr_HealPotion.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

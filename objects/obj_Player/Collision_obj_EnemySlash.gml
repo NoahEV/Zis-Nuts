@@ -27,4 +27,12 @@ if(global.canPlayerBeDamaged >= 1)
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "global.playerCurrentHealth"
 	global.playerCurrentHealth += -33;
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 5AC423AD
+	/// @DnDParent : 73A75875
+	/// @DnDArgument : "code" "var shake = instance_create_layer(0, 0, layer, obj_ScreenShake);$(13_10)shake.shake = 2;"
+	var shake = instance_create_layer(0, 0, layer, obj_ScreenShake);
+	shake.shake = 2;
 }

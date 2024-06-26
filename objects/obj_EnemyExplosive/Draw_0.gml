@@ -1,3 +1,8 @@
+/// @DnDAction : YoYo Games.Drawing.Draw_Self
+/// @DnDVersion : 1
+/// @DnDHash : 40D0D592
+draw_self();
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
 /// @DnDVersion : 1
 /// @DnDHash : 391DFE8E
