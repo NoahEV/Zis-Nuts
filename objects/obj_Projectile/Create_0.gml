@@ -14,14 +14,14 @@ alarm_set(1, 10);
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Free
 /// @DnDVersion : 1
 /// @DnDHash : 2B71432B
-/// @DnDArgument : "direction" "180 * clamp(global.playerDirectionX, -1, 0)  + -90 * global.playerDirectionY"
-direction = 180 * clamp(global.playerDirectionX, -1, 0)  + -90 * global.playerDirectionY;
+/// @DnDArgument : "direction" "point_direction(x, y, mouse_x, mouse_y) "
+direction = point_direction(x, y, mouse_x, mouse_y) ;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
 /// @DnDHash : 03CA7807
-/// @DnDArgument : "angle" "180 * clamp(global.playerDirectionX, -1, 0)  + -90 * global.playerDirectionY - 90"
-image_angle = 180 * clamp(global.playerDirectionX, -1, 0)  + -90 * global.playerDirectionY - 90;
+/// @DnDArgument : "angle" "point_direction(x, y, mouse_x, mouse_y) - 90 "
+image_angle = point_direction(x, y, mouse_x, mouse_y) - 90 ;
 
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
