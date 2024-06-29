@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"ButtonVoltar",
   "bboxMode":1,
-  "bbox_bottom":2777,
+  "bbox_bottom":65,
   "bbox_left":0,
-  "bbox_right":3333,
+  "bbox_right":338,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e04c6e7a-ee8b-4506-96d9-84664b5ed18e","name":"e04c6e7a-ee8b-4506-96d9-84664b5ed18e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b2c565e2-a331-483a-b6fe-9de73465de77","name":"b2c565e2-a331-483a-b6fe-9de73465de77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":2778,
+  "height":66,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"049434ea-04b7-43a7-a63e-46dd33db8638","blendMode":0,"displayName":"default","isLocked":false,"name":"049434ea-04b7-43a7-a63e-46dd33db8638","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c2b95d0f-a5c3-4fbd-86e1-e19ebcf45000","blendMode":0,"displayName":"default","isLocked":false,"name":"c2b95d0f-a5c3-4fbd-86e1-e19ebcf45000","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"ButtonVoltar",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e04c6e7a-ee8b-4506-96d9-84664b5ed18e","path":"sprites/ButtonVoltar/ButtonVoltar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d8889974-6682-4e4f-9731-4245998748b9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b2c565e2-a331-483a-b6fe-9de73465de77","path":"sprites/ButtonVoltar/ButtonVoltar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c8a28254-54ff-471f-8337-f40acad75da9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":3334,
+  "width":339,
 }
