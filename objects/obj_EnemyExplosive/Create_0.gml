@@ -18,3 +18,23 @@ localHealth = maxHealth;
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "canAttack"
 canAttack = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1DBE38CF
+/// @DnDArgument : "var" "moving"
+moving = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1AB3CB97
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "canBeDamaged"
+canBeDamaged = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 77973F2C
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "canMove"
+canMove = 1;

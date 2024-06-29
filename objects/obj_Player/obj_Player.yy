@@ -43,10 +43,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"zibo_front",
-    "path":"sprites/zibo_front/zibo_front.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -22,22 +22,26 @@ global.playerDirection = 1;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 3992275A
-/// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "playerDirectionX"
-global.playerDirectionX = 1;
+global.playerDirectionX = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 2396103D
-/// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "playerDirectionY"
-global.playerDirectionY = 1;
+global.playerDirectionY = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 7866B7FF
-/// @DnDArgument : "var" "attackDirection"
-global.attackDirection = 0;
+/// @DnDArgument : "var" "attackDirectionX"
+global.attackDirectionX = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 3E0E4A42
+/// @DnDArgument : "var" "attackDirectionY"
+global.attackDirectionY = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
@@ -78,3 +82,9 @@ global.canPlayerBeDamaged = 1;
 /// @DnDHash : 4E2D05D3
 /// @DnDArgument : "var" "arrowsNumber"
 global.arrowsNumber = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 0337024B
+/// @DnDArgument : "var" "isMoving"
+global.isMoving = 0;
