@@ -8,5 +8,5 @@ show_debug_message(string("Acabou imunidade"));
 /// @DnDVersion : 1
 /// @DnDHash : 3E01BCC5
 /// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "global.canPlayerBeDamaged"
-global.canPlayerBeDamaged = 1;
+/// @DnDArgument : "var" "canPlayerBeDamaged"
+canPlayerBeDamaged = 1;

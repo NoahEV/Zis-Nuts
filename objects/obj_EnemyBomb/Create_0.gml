@@ -17,3 +17,16 @@ posX = obj_Player.x;
 /// @DnDArgument : "expr" "obj_Player.y"
 /// @DnDArgument : "var" "posY"
 posY = obj_Player.y;
+
+/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+/// @DnDVersion : 1
+/// @DnDHash : 7E7E2EA0
+/// @DnDArgument : "x" "posX"
+/// @DnDArgument : "y" "posY"
+direction = point_direction(x, y, posX, posY);
+
+/// @DnDAction : YoYo Games.Movement.Set_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 4ABCF623
+/// @DnDArgument : "speed" "2"
+speed = 2;

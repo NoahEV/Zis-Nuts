@@ -1,17 +1,24 @@
-/// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
+/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 /// @DnDVersion : 1
-/// @DnDHash : 7960F268
-/// @DnDArgument : "x1" "-50"
-/// @DnDArgument : "x1_relative" "1"
-/// @DnDArgument : "y1" "-60"
-/// @DnDArgument : "y1_relative" "1"
-/// @DnDArgument : "x2" "50"
-/// @DnDArgument : "x2_relative" "1"
-/// @DnDArgument : "y2" "-40"
-/// @DnDArgument : "y2_relative" "1"
-/// @DnDArgument : "value" "global.playerCurrentHealth"
-/// @DnDArgument : "backcol" "$FF4F4F4F"
-/// @DnDArgument : "barcol" "$FF0C0C0C"
-/// @DnDArgument : "mincol" "$FF08FF00"
-/// @DnDArgument : "maxcol" "$FF08FF00"
-draw_healthbar(x + -50, y + -60, x + 50, y + -40, global.playerCurrentHealth, $FF4F4F4F & $FFFFFF, $FF08FF00 & $FFFFFF, $FF08FF00 & $FFFFFF, 0, (($FF4F4F4F>>24) != 0), (($FF0C0C0C>>24) != 0));
+/// @DnDHash : 01DFACF3
+/// @DnDArgument : "x" "35"
+/// @DnDArgument : "y" "35"
+/// @DnDArgument : "sprite" "quiver"
+/// @DnDSaveInfo : "sprite" "quiver"
+draw_sprite(quiver, 0, 35, 35);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 0D02C732
+draw_set_colour($FFFFFFFF & $ffffff);
+var l0D02C732_0=($FFFFFFFF >> 24);
+draw_set_alpha(l0D02C732_0 / $ff);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 3E466025
+/// @DnDArgument : "x" "70"
+/// @DnDArgument : "y" "10"
+/// @DnDArgument : "caption" """"
+/// @DnDArgument : "var" "global.arrowsNumber"
+draw_text(70, 10, string("") + string(global.arrowsNumber));

@@ -15,10 +15,7 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_EnemySlash",
-    "path":"objects/obj_EnemySlash/obj_EnemySlash.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -37,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_EnemySlash",
-    "path":"sprites/spr_EnemySlash/spr_EnemySlash.yy",
+    "name":"enemy_arrow",
+    "path":"sprites/enemy_arrow/enemy_arrow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

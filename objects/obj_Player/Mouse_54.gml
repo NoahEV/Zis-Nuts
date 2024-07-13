@@ -25,4 +25,12 @@ if(global.canPlayerMove && global.arrowsNumber > 0 == 1)
 	/// @DnDArgument : "objectid" "obj_Projectile"
 	/// @DnDSaveInfo : "objectid" "obj_Projectile"
 	instance_create_layer(x + clamp(mouse_x - x, -10, 10), y + clamp(mouse_y - y, -10, 10), "Instances", obj_Projectile);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 1B3276F7
+	/// @DnDParent : 7033E24A
+	/// @DnDArgument : "soundid" "flesha"
+	/// @DnDSaveInfo : "soundid" "flesha"
+	audio_play_sound(flesha, 0, 0, 1.0, undefined, 1.0);
 }

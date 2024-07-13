@@ -1,51 +1,17 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0A6CCAD5
-/// @DnDArgument : "var" "(vspeed < 0) and (moving != -1)"
+/// @DnDArgument : "var" "(vspeed != 0) and (moving !=1)"
 /// @DnDArgument : "value" "1"
-if((vspeed < 0) and (moving != -1) == 1)
+if((vspeed != 0) and (moving !=1) == 1)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 3D7D8932
 	/// @DnDParent : 0A6CCAD5
-	/// @DnDArgument : "expr" "-1"
-	/// @DnDArgument : "var" "moving"
-	moving = -1;
-
-	/// @DnDAction : YoYo Games.Instances.Set_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 48E6FC11
-	/// @DnDParent : 0A6CCAD5
-	/// @DnDArgument : "spriteind" "quebrada_costas_andando"
-	/// @DnDSaveInfo : "spriteind" "quebrada_costas_andando"
-	sprite_index = quebrada_costas_andando;
-	image_index = 0;
-}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 4D77B5E9
-/// @DnDArgument : "var" "(vspeed > 0) and (moving != 1)"
-/// @DnDArgument : "value" "1"
-if((vspeed > 0) and (moving != 1) == 1)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 0C7161A1
-	/// @DnDParent : 4D77B5E9
 	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "var" "moving"
 	moving = 1;
-
-	/// @DnDAction : YoYo Games.Instances.Set_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 16336D2C
-	/// @DnDParent : 4D77B5E9
-	/// @DnDArgument : "spriteind" "quebrada_frente_andando"
-	/// @DnDSaveInfo : "spriteind" "quebrada_frente_andando"
-	sprite_index = quebrada_frente_andando;
-	image_index = 0;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

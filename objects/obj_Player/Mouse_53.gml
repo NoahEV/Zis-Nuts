@@ -5,6 +5,14 @@
 /// @DnDArgument : "value" "1"
 if(global.canPlayerMove == 1)
 {
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 13BC1082
+	/// @DnDParent : 326F3EFB
+	/// @DnDArgument : "soundid" "ataque"
+	/// @DnDSaveInfo : "soundid" "ataque"
+	audio_play_sound(ataque, 0, 0, 1.0, undefined, 1.0);
+
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 3D5E495B
