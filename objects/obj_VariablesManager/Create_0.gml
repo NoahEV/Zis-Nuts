@@ -88,3 +88,9 @@ global.arrowsNumber = 0;
 /// @DnDHash : 0337024B
 /// @DnDArgument : "var" "isMoving"
 global.isMoving = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 2EBC5081
+/// @DnDArgument : "var" "actualCamera"
+global.actualCamera = 0;

@@ -43,8 +43,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Enemy",
-    "path":"sprites/spr_Enemy/spr_Enemy.yy",
+    "name":"para_andando",
+    "path":"sprites/para_andando/para_andando.yy",
   },
   "spriteMaskId":null,
   "visible":true,

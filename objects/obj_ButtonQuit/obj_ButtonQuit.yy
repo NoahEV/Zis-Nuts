@@ -8,7 +8,7 @@
   "managed":true,
   "name":"obj_ButtonQuit",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ButtonBase","path":"objects/obj_ButtonBase/obj_ButtonBase.yy",},"propertyId":{"name":"Button_text","path":"objects/obj_ButtonBase/obj_ButtonBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"SAIR",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_ButtonBase","path":"objects/obj_ButtonBase/obj_ButtonBase.yy",},"propertyId":{"name":"Button_text","path":"objects/obj_ButtonBase/obj_ButtonBase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"SAIR",},
   ],
   "parent":{
     "name":"Buttons",

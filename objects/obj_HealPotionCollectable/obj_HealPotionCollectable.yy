@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_HealPotion",
-    "path":"sprites/spr_HealPotion/spr_HealPotion.yy",
+    "name":"pot1",
+    "path":"sprites/pot1/pot1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
